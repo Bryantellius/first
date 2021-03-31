@@ -15,6 +15,10 @@
 
   - Must create a branch AND checkout branch
   - Shortcut `git checkout -b <branchName>`
+  - Branches enable:
+    - Testing
+    - Rolling out new features
+    - Rolling back to previous fixes
 
 - Git is the tool, Github is the service for hosting remote files
 
@@ -52,3 +56,7 @@ Commands
 - `git pull` updates local project from remote repository (fetch and merge)
 - `git fetch` fetches changes from remote repo
 - `git merge` merges changes from remote repo
+- `git reset` removes files from the staging area
+- `git reset --hard` removes files from the staging area AND removes edits to files
+- `git revert` reverts a commit
+- `git checkout` reverts code to previous commit version
